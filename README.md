@@ -1,38 +1,38 @@
 # MyProject
 
-## dental clinic
+### dental clinic
 
 ישויות: רופאים,תורים,מטופלים
 ### מיפוי routs לרופאים:
-שליפת רשימת רופאים:
+שליפת רשימת רופאים:  
 GET http://MyProject.com/Dentists
-שליפת רופא מתוך רשימת רופאים לפי מספר מזהה:
+שליפת רופא מתוך רשימת רופאים לפי מספר מזהה:  
 GET http://MyProject.com/Dentists/1
-הוספת רופא לרשימה:
+הוספת רופא לרשימה:  
 POST http://MyProject.com/Dentists
-מחיקת רופא מהרשימה:
+מחיקת רופא מהרשימה:  
 DELETE http://MyProject.com/Dentists/2
-### מיפוי routs לתורים:
-שליפת רשימת תורים:
+### מיפוי routs לתורים:  
+שליפת רשימת תורים:  
 GET http://MyProject.com/queues
-שליפת תור לפי מספר מזהה:
+שליפת תור לפי מספר מזהה:  
 GET http://MyProject.com/queues/1
-הוספת תור:
+הוספת תור:  
 POST http://MyProject.com/queues
-עדכון תור:
+עדכון תור:  
 PUT http://MyProject.com/queues
-עדכון תור לפי מספר מזהה:
+עדכון תור לפי מספר מזהה:  
 PUT http://MyProject.com/queues/2
-מחיקת תור:
+מחיקת תור:  
 DELETE http://MyProject.com/queues/4
-### מיפוי routs למטופלים:
-שליפת רשימת מטופלים:
+### מיפוי routs למטופלים:  
+שליפת רשימת מטופלים:  
 GET http://MyProject.com/Patients
-שליפת פרטי מטופל לפי מספר מזהה:
+שליפת פרטי מטופל לפי מספר מזהה:  
 GET http://MyProject.com/Patients/3
-הוספת מטופל לרשימה:
+הוספת מטופל לרשימה:  
 POST http://MyProject.com/Patients
-מחיקת מטופל מהרשימה:
+מחיקת מטופל מהרשימה:  
 DELETE http://MyProject.com/Patients/1
-עדכון פרטי מטופל לפי מספר מזהה:
+עדכון פרטי מטופל לפי מספר מזהה:  
 PUT http://MyProject.com/Patients/6
